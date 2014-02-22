@@ -9,7 +9,7 @@ gem 'pg'
 gem 'figaro'
 # gem 'stanford-core-nlp'  #natural language processing
 gem 'treat'
-
+gem 'activerecord-postgres-hstore'
 
 # Gems used only for assets and not required
 # in production environments by default.
