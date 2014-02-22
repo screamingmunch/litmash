@@ -9,6 +9,7 @@ gem 'pg'
 gem 'figaro'
 # gem 'stanford-core-nlp'  #natural language processing
 gem 'treat'
+gem 'gon'
 
 
 # Gems used only for assets and not required

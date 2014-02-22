@@ -4,7 +4,7 @@ $(function(){
     console.log('clicked penguin');
     $.ajax({
       type: "GET",
-      url: "https://api.pearson.com/penguin/classics/v1/books?title=a+tale+of+two+cities&apikey=La0NZ0w8vh7LOlj3EIrf8YA7NNAhVif2"
+      url: "https://api.pearson.com/penguin/classics/v1/books?title=a+tale+of+two+cities&apikey=ENV['PEARSON_API_KEY']"
     }).done(function(data){
       console.log(data);
       console.log(data.books[0]);

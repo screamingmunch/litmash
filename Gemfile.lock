@@ -47,6 +47,9 @@ GEM
     figaro (0.7.0)
       bundler (~> 1.0)
       rails (>= 3, < 5)
+    gon (5.0.4)
+      actionpack (>= 2.3.0)
+      json
     hike (1.2.3)
     i18n (0.6.9)
     journey (1.0.4)
@@ -134,6 +137,7 @@ DEPENDENCIES
   better_errors
   coffee-rails (~> 3.2.1)
   figaro
+  gon
   jquery-rails
   pg
   pry-rails
