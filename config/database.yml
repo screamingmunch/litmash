@@ -43,7 +43,7 @@ test:
   encoding: unicode
   database: litmash_test
   pool: 5
-  username: litmash
+  username:
   password:
 
 production:

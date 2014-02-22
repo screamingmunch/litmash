@@ -8,6 +8,7 @@ gem 'rails', '3.2.14'
 gem 'pg'
 gem 'figaro'
 # gem 'stanford-core-nlp'  #natural language processing
+gem 'treat'
 
 
 # Gems used only for assets and not required
